@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+body {
+    text-align: center;
+}
+.setup {
+    color: red;
+    animation: blink 1s infinite;
+}
+.punchline {
+    color: green;
+}
+</style>
+<body> 
+<h3 class="setup">Setup: <span id="getSetup"></span></h3>
+<h4 class="punchline">Punchline: <span id="PunchlineSetup"></span></h4>
+    <script src="./random_joke.js"> </script>
+</body>
+</html>
+
+
+
+
+
